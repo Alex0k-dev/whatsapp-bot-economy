@@ -1,0 +1,47 @@
+{
+  "bot_name": "Cash",
+  "admin_number": "+523332297508",
+  "currency": "💵",
+  "work": {
+    "min": 1200,
+    "max": 3500,
+    "cooldown": 30
+  },
+  "crime": {
+    "min": 4500,
+    "max": 10000,
+    "cooldown": 80,
+    "fail_chance": 15
+  },
+  "passive_income": {
+    "normal": 40,
+    "member": 80,
+    "vip": 120
+  },
+  "fusion": {
+    "gold_required": 6,
+    "rainbow_required": 12
+  },
+  "ranks": {
+    "default": {
+      "name": "Sin acceso",
+      "permissions": []
+    },
+    "normal": {
+      "name": "Normal",
+      "permissions": ["economy", "casino", "cofres", "trade"]
+    },
+    "member": {
+      "name": "Miembro",
+      "permissions": ["economy", "casino", "cofres", "trade", "fusion_gold"]
+    },
+    "vip": {
+      "name": "VIP",
+      "permissions": ["economy", "casino", "cofres", "trade", "fusion_gold", "fusion_rainbow"]
+    },
+    "admin": {
+      "name": "Administrador",
+      "permissions": ["all"]
+    }
+  }
+}
